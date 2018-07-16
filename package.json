@@ -1,0 +1,46 @@
+{
+  "name": "circlebar-react",
+  "priate": true,
+  "version": "0.0.1",
+  "description": "Customizable circular progressbar for react",
+  "keywords": [
+    "react",
+    "react-component",
+    "circle",
+    "circular",
+    "circlebar",
+    "progressbar"
+  ],
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Samuel Larsson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StelFoog/circlebar-react.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StelFoog/circlebar-react/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
